@@ -7,29 +7,17 @@ x = input("Please enter a number")
 
 x = int(x)
 
-#create list 1 to n 
-
-#numbers = list(range(x + 1))
-#print(numbers)
-
-#check list for multiples of 3
+#create list of multiples of 3 from 1 to n
 
 a = list(range(0, (x + 1), 3))
-#print(a)
 
-#check list for multiples of 5
+#create list of multiples of 5 from 1 to n
 
 b = list(range(0, (x + 1), 5))
-#print(b)
 
 #combine lists
 
 combined = a + b
-#print(combined)
-
-#sort list into order
-#c = sorted(combined)
-#print(c)
 
 #remove duplicates
 
