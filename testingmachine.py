@@ -1,8 +1,8 @@
 #testing machine
 
-nums = list(range(5))
-print(nums)
-print(nums[4])
-
+def multiply(a, b):
+    return( a * b)
+    
+print(multiply(2,3))
 
 
