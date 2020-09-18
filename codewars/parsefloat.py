@@ -6,10 +6,12 @@ string = "test"
 
 
 def parse_float(string):
+    #try convert the string to a float
     try:
         print(float(string))
+    # if there is a ValueError or TypeError print "None"
     except (ValueError, TypeError):
         print(None)
 
-
+#run function
 parse_float(string)

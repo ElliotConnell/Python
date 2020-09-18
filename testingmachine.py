@@ -1,8 +1,9 @@
 #testing machine
 
-def multiply(a, b):
-    return( a * b)
-    
-print(multiply(2,3))
+
+
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+	print(k,v)
 
 
