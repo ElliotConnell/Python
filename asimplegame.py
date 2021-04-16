@@ -1,3 +1,5 @@
+import class_goblin.py
+
 
 def get_input():
 	command = input(": ").split()
